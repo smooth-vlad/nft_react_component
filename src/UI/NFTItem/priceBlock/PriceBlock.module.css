@@ -1,0 +1,38 @@
+.priceBlock {
+    color: white;
+    padding: 20px;
+    background: #7A3DDE;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.priceHalfBlock {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.buyPriceBlock {
+    float: left;
+}
+
+.returnPriceBlock {
+    float:right;
+}
+
+.priceBlockTitle {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.priceBlockValue {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Montserrat, serif;
+}
+
+.priceBlockValue small {
+    font-size: 20px;
+}

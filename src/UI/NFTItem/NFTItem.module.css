@@ -1,0 +1,40 @@
+.nftItem {
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #F0F0F0;
+    border-width: 1px;
+    overflow: hidden;
+    margin: 75px 100px;
+    width: fit-content;
+    padding: 16px;
+    min-width: fit-content;
+}
+
+.halfBlockImage {
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+@media all and (min-width: 1200px) {
+    .leftBlock {
+        float: left;
+        width: 400px;
+    }
+
+    .rightBlock {
+        float: right;
+        width: 400px;
+        margin-left: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .leftBlock {
+        width: 400px;
+    }
+
+    .rightBlock {
+        width: 400px;
+    }
+}

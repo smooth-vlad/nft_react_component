@@ -1,0 +1,15 @@
+.attributeItem {
+    overflow: hidden;
+}
+
+.attributeItemTitle {
+    float: left;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.attributeItemValue {
+    float: right;
+    font-weight: 300;
+    font-size: 10px;
+}
